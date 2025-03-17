@@ -1,0 +1,19 @@
+👨‍💻 User & Group Management
+ ✅ su <username> ➡️ Switch to another user
+ ✅ groupadd <groupname> ➡️ Create a new group
+ ✅ sudo gpasswd -a <username> <groupname> ➡️ Add user to a group
+📂 File Operations
+ ✅ mkdir dev-files ➡️ Create a directory
+ ✅ ls -la ➡️ List files with details
+ ✅ chmod, chown ➡️ Manage file permissions & ownership
+🛡️ Sudo & Permissions
+ ✅ sudo cat /etc/passwd ➡️ View system users
+ ✅ sudo cat /etc/sudoers ➡️ View sudoers configuration
+🔎 Sudo = Superuser Do — A powerful tool for elevated permissions
+📋 ACL (Access Control List)
+ ✅ sudo apt-get install acl ➡️ Install ACL
+ ✅ setfacl -m u:<username>:rwx <filepath> ➡️ Grant specific permissions
+🔍 Search & Text Processing
+ ✅ grep -r -i <word> <filename> ➡️ Case-insensitive search
+ ✅ awk '/INFO/{print $3}' <filename> ➡️ Extract key details from logs
+🕒 Bonus Tip: Don't forget history to track your command history!
